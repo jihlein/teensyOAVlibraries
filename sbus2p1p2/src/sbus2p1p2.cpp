@@ -24,7 +24,7 @@
 */
 
 #include "Arduino.h"
-#include "sbus.h"
+#include "sbus2p1p2.h"
 
 SbusRx::SbusRx(HardwareSerial *bus) {
   bus_ = bus;

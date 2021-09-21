@@ -23,8 +23,8 @@
 * IN THE SOFTWARE.
 */
 
-#ifndef INCLUDE_SBUS_SBUS_H_
-#define INCLUDE_SBUS_SBUS_H_
+#ifndef INCLUDE_SBUS_SBUS2P1P2_H_
+#define INCLUDE_SBUS_SBUS2P1P2_H_
 
 
 #if defined(__AVR__)
@@ -107,4 +107,4 @@ class SbusTx {
   bool failsafe_ = false, lost_frame_ = false, ch17_ = false, ch18_ = false;
 };
 
-#endif  // INCLUDE_SBUS_SBUS_H_
+#endif  // INCLUDE_SBUS_SBUS2P1P2_H_
